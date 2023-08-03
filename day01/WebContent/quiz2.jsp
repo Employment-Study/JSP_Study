@@ -1,51 +1,46 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
 <meta charset="UTF-8">
 <title>quiz2.jsp</title>
 </head>
 <body>
-	<h1>quiz2.jsp</h1>
-	<hr>
-	
-	<%! 
-			String[] format; 	
-	%>
-	
-	<%
-		String birth = request.getParameter("birth");
-		if (birth != null) {
-			format = birth.split("-");
-		}
-	%>
-	<ul>
-		<li>날짜를 입력받아서 yyyy년 MM월 dd일 형식의 문자열로 바꿔서 출력하세요</li>
-	</ul>
 
-	<form>
-		<p>
-			<input type="date" name="birth">
-		</p>
-		<p>
-			<input type="submit">
-		</p>
-	</form>
+<h1>quiz2.jsp</h1>
+<hr>
 
-	<%
-		if(format!= null ){
-			String year = format[0];
-			String month = format[1];
-			String day = format[2];
-	%>
-	<marquee><%=year %>년 <%=month %>월 <%=day %>일</marquee>
-	<%
-		format = null;
-		}
-	%>
+<ul>
+	<li>날짜를 입력받아서, yyyy년 MM월 dd일 형식의 문자열로 바꿔서 출력하세요</li>
+</ul>
+
+<form>
+	<p><input type="date" name="birth"></p>
+	<p><input type="submit"></p>
+</form>
+
+<%
+	// String input = sc.nextLine();
+	String input = request.getParameter("birth");
+	String output = "";
 	
-	<a href="./quiz2.jsp"><button>돌아가기</button></a>
-	
+	if(input != null) {
+		output = input.replaceFirst("-", "년 ");
+		output = output.replace("-", "월 ");
+		output += "일";
+		
+// 		System.out.println("3) " + output);
+		out.print(output);
+	}
+%>
+<h3>birth : <%=output %></h3>
+
+
 </body>
 </html>
+
+
+
+
+
