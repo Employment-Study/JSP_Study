@@ -17,8 +17,8 @@
 |  02  | 3일차  |                           계산기 만들어보기                            | [바로가기][day03] |
 |  03  | 4일차  |   계산기완성 + Attribute와Parameter의 차이 + redirect와 forward 방식   | [바로가기][day04] |
 |  04  | 5일차  |  JSP 액션태그의 사용법과 종류 4가지(useBean, set/getProperty, forward, include) | [바로가기][day05] |
-|  05  | 6일차  |  JSP의 지시자와 JSTL(JSP Standard Tag Library) 의 사용법과 예제  | [바로가기][day06] |
-|  06  | 7일차  |                                                                        | [바로가기][day07] |
+|  05  | 6일차  |    JSP의 지시자와 JSTL(JSP Standard Tag Library) 의 사용법과 예제      | [바로가기][day06] |
+|  06  | 7일차  |    OJDBC 오라클데이터베이스 연동해서 DAO와 DTO의 기본형태와 불러오는 법    | [바로가기][day07] |
 |  07  | 8일차  |                                                                        | [바로가기][day08] |
 |  08  | 9일차  |                                                                        | [바로가기][day09] |
 |  09  | 10일차 |                                                                        | [바로가기][day10] |
