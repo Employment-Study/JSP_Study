@@ -25,7 +25,7 @@
 |  10  | 10일차 |                DBCP(커넥션 풀)를 이용한 학생 전화번호부 만들기                 | [바로가기][day10_phonebook] |
 |  11  | 11일차 |                   session의 개념과 회원가입/로그인 구현하기                    |  [바로가기][day11_session]  |
 |  12  | 12일차 |                   쿠키 개념과 쿠키를 이용한 로그인 구현하기                    |  [바로가기][day12_cookie]   |
-|  13  | 13일차 |                                                                                |      [바로가기][day13]      |
+|  13  | 13일차 |                JSessionID로 로그인 + 최근 열람한 품목 가져오기                 |      [바로가기][day13]      |
 |  14  | 14일차 |                                                                                |      [바로가기][day13]      |
 |  15  | 15일차 |                                                                                |      [바로가기][day15]      |
 |  16  | 16일차 |                                                                                |      [바로가기][day16]      |
@@ -74,7 +74,7 @@
 [day09_student]: ./day09_student/WebContent/
 [day10_phonebook]: ./day10_phonebook/WebContent/
 [day11_session]: ./day11_session/WebContent/
-[day12]: ./day12_cookie/WebContent/
+[day12_cookie]: ./day12_cookie/WebContent/
 [day13]: ./day13/WebContent/
 [day14]: ./day14/WebContent/
 [day15]: ./day15/WebContent/
