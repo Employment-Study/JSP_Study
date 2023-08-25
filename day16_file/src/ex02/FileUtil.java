@@ -21,7 +21,7 @@ public class FileUtil {
 	private FileUtil() {}
 	
 	private String saveDirectory = null;
-	private int maxPostSize = 10 * 1024 * 1024;
+	private int maxPostSize = 100 * 1024 * 1024;
 	private String encoding = "UTF-8";
 	private FileRenamePolicy policy = new DefaultFileRenamePolicy();
 	
@@ -47,7 +47,7 @@ public class FileUtil {
 		dto.setTitle(title);
 		dto.setFilePath(filePath);
 		// DB에 파일을 직접 저장하지 않는다 (파일의 이름 및 경로만 저장하면 된다)
-		
+		System.out.println(mpRequest.getContentType("profileImage"));
 		return dto;
 	}
 	

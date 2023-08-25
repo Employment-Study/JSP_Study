@@ -27,7 +27,7 @@
 
 <form method="POST" action="ex02-action.jsp" enctype="multipart/form-data">
 	<p><input type="text" name="title" placeholder="타이틀"></p>
-	<p><input type="file" name="profileImage"></p>
+	<p><input type="file" name="profileImage" accept="application/zip"></p>
 	<p><input type="submit"></p>
 </form>
 
