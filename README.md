@@ -27,8 +27,8 @@
 |  12  | 12일차 |                   쿠키 개념과 쿠키를 이용한 로그인 구현하기                    |  [바로가기][day12_cookie]   |
 |  13  | 13일차 |                JSessionID로 로그인 + 최근 열람한 품목 가져오기                 |      [바로가기][day13]      |
 |  14  | 14일차 |                                 게시판 만들기                                  |      [바로가기][day14]      |
-|  15  | 15일차 |                                                                                |      [바로가기][day15]      |
-|  16  | 16일차 |                                                                                |      [바로가기][day16]      |
+|  15  | 15일차 |                 블로그 만들기                                          |      [바로가기][day15]      |
+|  16  | 16일차 |                 단일 파일 처리하기(업로드 추가 삭제 조회)                         |      [바로가기][day16_file]      |
 |  17  | 17일차 |                                                                                |      [바로가기][day17]      |
 |  18  | 18일차 |                                                                                |      [바로가기][day18]      |
 |  19  | 19일차 |                                                                                |      [바로가기][day19]      |
@@ -78,7 +78,7 @@
 [day13]: ./day13/WebContent/
 [day14_board]: ./day14_board/WebContent/
 [day15]: ./day15/WebContent/
-[day16]: ./day16/WebContent/
+[day16_file]: ./day16_file/WebContent/
 [day17]: ./day17/WebContent/
 [day18]: ./day18/WebContent/
 [day19]: ./day19/WebContent/
